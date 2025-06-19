@@ -54,3 +54,39 @@ Console Window: 「Console Based」を選択
 
 方法A（現在）: PC上にある.exeファイルを、メールやチャットなどで必要な人に直接渡す。
 方法B（推奨）: GitHubの「Releases」機能を使って、バージョン情報と共に公開・配布する。
+
+
+# 作業の流れの確認
+git pull
+
+git add
+
+git commit -m ""
+
+git push
+
+【自宅】
+
+PCにGitをインストールし、`git config`で名前とメールアドレスの初期設定を済ませておきます。2. コマンドプロンプト（ターミナル）を開き、プロジェクトを置きたいフォルダに移動します。 ```bash
+
+# 例: ドキュメントフォルダに移動
+
+cd C:\Users\YourName\Documents
+
+```3. 以下のコマンドを実行して、GitHubからプロジェクト全体を自分のPCにコピー（クローン）します。 ```bash
+
+git clone [https://github.com/sakazu8/subtitle-checker.git](https://github.com/sakazu8/subtitle-checker.git)
+
+```
+
+これにより、`subtitle-checker`というフォルダが作成され、開発を開始できます。
+
+以下同じ
+
+git pull
+
+git add
+
+git commit -m ""
+
+git push
