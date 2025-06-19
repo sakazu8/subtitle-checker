@@ -1,6 +1,7 @@
 # 生成された実行ファイルを無視する
 subtitle_checker.exe
 bak_vesion
+app
 
 # PyInstallerが作るフォルダも無視する
 dist/
